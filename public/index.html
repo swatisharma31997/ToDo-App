@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+      
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDlkXajegjjTM2pwrw6HuWr38DfDI2jAvs",
+        authDomain: "fireapp-todo.firebaseapp.com",
+        databaseURL: "https://fireapp-todo.firebaseio.com",
+        projectId: "fireapp-todo",
+        storageBucket: "fireapp-todo.appspot.com",
+        messagingSenderId: "1053362599439"
+      };
+      firebase.initializeApp(config);
+    </script>
+      <script src="https://apis.google.com/js/platform.js" async defer></script>
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta
@@ -25,6 +40,7 @@
     <title>React App</title>
   </head>
   <body>
+    
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -38,4 +54,7 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+
 </html>
+
+
