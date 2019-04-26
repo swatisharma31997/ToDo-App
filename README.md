@@ -29,5 +29,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 Functionong of some of the fucntions:-
 
-### `.filter` = will return an array with certain elements where the function passed in returns a truthy value.
-### `.bind` = This binding is necessary to make `this` work in the callback. The simplest use of bind() is to make a function that, no matter how it is called, is called with a particular this value
+### `.filter`
+will return an array with certain elements where the function passed in returns a truthy value.
+### `.bind`
+This binding is necessary to make `this` work in the callback. The simplest use of bind() is to make a function that, no matter how it is called, is called with a particular this value
